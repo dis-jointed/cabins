@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header h5 {
+  color: white;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.menu a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.menu button {
+  margin-left: 15px;
+  background: transparent;
+  color: white;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
+
+.menu button:hover {
+  background: blue;
+}

@@ -1,0 +1,24 @@
+.header__bottom{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    background: #006400;
+    padding: 15px;
+}
+
+.header__date > input{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.header__date > p{
+    font-size: 10px;
+}
+
+.header__bottom > button{
+    background: turquoise;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
